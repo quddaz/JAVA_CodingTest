@@ -3,4 +3,4 @@
 ### DFS
 
 ### BFS
-- BFS 최소 거리 https://www.acmicpc.net/problem/31575
+- BFS 기본 https://www.acmicpc.net/problem/31575
