@@ -7,6 +7,7 @@
 ### DFS
 - DFS 기본
   - [S1 컴백홈](https://www.acmicpc.net/problem/1189), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DFS/BOJ1189.java)
+  - [S1 그림](https://www.acmicpc.net/problem/1926), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BOJ1926.java)
 - DFS + DP
   - [G2 게임](https://www.acmicpc.net/problem/1103), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DFS/BOJ1103.java)
 ### BFS
