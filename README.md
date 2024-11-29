@@ -3,6 +3,7 @@
 - 스택의 괄호 쌍
    - [S4 균형잡힌 세상](https://www.acmicpc.net/problem/4949), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ4949.java)
    - [S2 쇠파이프](https://www.acmicpc.net/problem/10799), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ10799.java)
+   - [G5 괄호의 값](https://www.acmicpc.net/problem/2504), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ2504.java)
 ### DFS
 - DFS 기본
   - [S1 컴백홈](https://www.acmicpc.net/problem/1189), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DFS/BOJ1189.java)
