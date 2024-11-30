@@ -2,6 +2,8 @@
 ### 재귀
 - 수학적 재귀
    - [S1 곱셈](https://www.acmicpc.net/problem/1629), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BOJ1629.java)
+- 규칙성 재귀
+   - [G5 하노이의 탑 이동 순서](https://www.acmicpc.net/problem/11729), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%AC%EA%B7%80/BOJ11729.java)
 ### 자료구조
 - 스택의 괄호 쌍
    - [S4 균형잡힌 세상](https://www.acmicpc.net/problem/4949), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ4949.java)
