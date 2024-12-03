@@ -4,6 +4,7 @@
    - [S1 곱셈](https://www.acmicpc.net/problem/1629), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BOJ1629.java)
    - [G5 Moo게임](https://www.acmicpc.net/problem/5904), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%AC%EA%B7%80/BOJ5904.java)
 - 규칙성 재귀
+   - [S2 색종이 만들기](https://www.acmicpc.net/problem/2630), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%AC%EA%B7%80/BOJ2630.java)
    - [G5 하노이의 탑 이동 순서](https://www.acmicpc.net/problem/11729), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%AC%EA%B7%80/BOJ11729.java)
    - [G5 하노이 탑](https://www.acmicpc.net/problem/1914), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%AC%EA%B7%80/BOJ1914.java)
    - [G5 Z](https://www.acmicpc.net/problem/1074), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BOJ1074.java)
