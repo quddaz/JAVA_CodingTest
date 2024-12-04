@@ -1,4 +1,18 @@
 ## 문제 유형
+### 백트래킹
+- 기초 백트래킹
+   - [S3 N과 M(1)](https://www.acmicpc.net/problem/15649), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15649.java)
+   - [S3 N과 M(2)](https://www.acmicpc.net/problem/15650), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15650.java)
+   - [S3 N과 M(3)](https://www.acmicpc.net/problem/15651), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15651.java)
+   - [S3 N과 M(4)](https://www.acmicpc.net/problem/15652), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15652.java)
+   - [S3 N과 M(5)](https://www.acmicpc.net/problem/15654), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15654.java)
+   - [S3 N과 M(6)](https://www.acmicpc.net/problem/15655), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15655.java)
+   - [S3 N과 M(7)](https://www.acmicpc.net/problem/15656), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15656.java)
+   - [S3 N과 M(8)](https://www.acmicpc.net/problem/15657), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15657.java)
+   - [S2 N과 M(9)](https://www.acmicpc.net/problem/15663), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15663.java)
+   - [S2 N과 M(10)](https://www.acmicpc.net/problem/15664), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15664.java)
+   - [S2 N과 M(11)](https://www.acmicpc.net/problem/15665), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15665.java)
+   - [S2 N과 M(12)](https://www.acmicpc.net/problem/15666), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15666.java)
 ### 재귀
 - 수학적 재귀
    - [S1 곱셈](https://www.acmicpc.net/problem/1629), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BOJ1629.java)
