@@ -15,6 +15,7 @@
    - [S2 N과 M(12)](https://www.acmicpc.net/problem/15666), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15666.java)
 - 구현 백트래킹
      - [G3 감시](https://www.acmicpc.net/problem/15683), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15683.java)
+     - [G1 2024(EASY)](https://www.acmicpc.net/problem/12100), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ12100.java)
 ### 재귀
 - 수학적 재귀
    - [S1 곱셈](https://www.acmicpc.net/problem/1629), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BOJ1629.java)
