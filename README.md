@@ -2,6 +2,8 @@
 ### 정렬
 - Merge Sort
    - [S5 배열 합치기](https://www.acmicpc.net/problem/11728), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%A0%95%EB%A0%AC/BOJ11728.java)
+- Counting Sort
+   - [S4 카드](https://www.acmicpc.net/problem/11652), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%A0%95%EB%A0%AC/BOJ11652.java)
 ### 백트래킹
 - 기초 백트래킹
    - [S3 N과 M(1)](https://www.acmicpc.net/problem/15649), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EB%B0%B1%ED%8A%B8%EB%9E%98%ED%82%B9/BOJ15649.java)
