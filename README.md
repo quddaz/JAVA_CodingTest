@@ -1,4 +1,7 @@
 ## 문제 유형
+### DP
+- 일반 DP
+   - [S4 1로 만들기](https://www.acmicpc.net/problem/1463), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1463.java)
 ### 정렬
 - Merge Sort
    - [S5 배열 합치기](https://www.acmicpc.net/problem/11728), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%A0%95%EB%A0%AC/BOJ11728.java)
