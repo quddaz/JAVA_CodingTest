@@ -40,6 +40,8 @@
 - 트리 재귀
    - [G4 이진 탐색 트리](https://www.acmicpc.net/problem/5639), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%AC%EA%B7%80/BOJ5639.java)
 ### 자료구조
+- 스택 스탠다드
+   - [G4 문자열 폭발](https://www.acmicpc.net/problem/9935), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ9935.java)
 - 스택의 괄호 쌍
    - [S4 균형잡힌 세상](https://www.acmicpc.net/problem/4949), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ4949.java)
    - [S2 쇠파이프](https://www.acmicpc.net/problem/10799), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ10799.java)
