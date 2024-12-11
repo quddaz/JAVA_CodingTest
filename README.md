@@ -2,7 +2,7 @@
 ### 그리디
 - 일반 그리디
    - [S1 회의실 배정](https://www.acmicpc.net/problem/1931), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1931.java)
-   - [G4 카드 정렬하기[(https://www.acmicpc.net/problem/1715), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1715.java)
+   - [G4 카드 정렬하기](https://www.acmicpc.net/problem/1715), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1715.java)
 ### DP
 - 일반 DP
    - [S4 1로 만들기](https://www.acmicpc.net/problem/1463), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1463.java)
