@@ -1,4 +1,7 @@
 ## 문제 유형
+### 수학
+- 이항계수
+   - [S2 이항계수2](https://www.acmicpc.net/problem/11051), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ11051.java)
 ### 그리디
 - 일반 그리디
    - [S1 회의실 배정](https://www.acmicpc.net/problem/1931), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1931.java)
