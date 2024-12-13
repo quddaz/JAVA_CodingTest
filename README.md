@@ -59,6 +59,8 @@
   - [S1 그림](https://www.acmicpc.net/problem/1926), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BOJ1926.java)
 - DFS + DP
   - [G2 게임](https://www.acmicpc.net/problem/1103), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DFS/BOJ1103.java)
+- DFS + 사이클링
+  - [G3 텀프로젝트](https://www.acmicpc.net/problem/9466), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DFS/BOJ9466.java)
 ### BFS
 - BFS 기본
   - [S3 도시와 비트코인](https://www.acmicpc.net/problem/31575), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BFS/BOJ31575.java)
