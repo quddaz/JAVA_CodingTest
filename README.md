@@ -69,6 +69,7 @@
   - [G3 말이 되고픈 원숭이](https://www.acmicpc.net/problem/1600), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BFS/BOJ1600.java)
   - [G3 다리 만들기](https://www.acmicpc.net/problem/2146), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BFS/BOJ2146.java)
   - [G3 벽 부수고 이동하기2](https://www.acmicpc.net/problem/14442), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BFS/BOJ14442.java)
+  - [G1 벽 부수고 이동하기3](https://www.acmicpc.net/problem/16933), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BFS/BOJ16933.java)
 - BFS 그래프 이론
   - [S2 결혼식](https://www.acmicpc.net/problem/5567), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/BFS/BOJ5567.java)
 - BFS 다차원
