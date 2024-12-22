@@ -18,6 +18,7 @@
    - [S1 극장좌석](https://www.acmicpc.net/problem/2302), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2302.java)
    - [G5 자두나무](https://www.acmicpc.net/problem/2240), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2240.java)
    - [G5 Coins](https://www.acmicpc.net/problem/3067), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ3067.java)
+   - [G5 암호코드](https://www.acmicpc.net/problem/2011), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2011.java)
    - [G5 합분해](https://www.acmicpc.net/problem/2225), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2225.java)
    - [G4 가장 긴 바이토닉 부분 수열](https://www.acmicpc.net/problem/11054), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ11054.java)
    - [G4 가장 큰 정사각형](https://www.acmicpc.net/problem/1915), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1915.java)
