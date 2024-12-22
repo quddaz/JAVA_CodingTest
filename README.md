@@ -11,6 +11,7 @@
    - [S4 1로 만들기](https://www.acmicpc.net/problem/1463), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1463.java)
    - [S3 1,2,3 더하기](https://www.acmicpc.net/problem/9095), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ9095.java)
    - [S3 파도반 수열](https://www.acmicpc.net/problem/9461), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ9461.java)
+   - [S2 제곱수의 합](https://www.acmicpc.net/problem/1699), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1699.java)
    - [S2 1,2,3 더하기3](https://www.acmicpc.net/problem/15988), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ15988.java)
    - [S1 1로 만들기2](https://www.acmicpc.net/problem/12852), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ12852.java)
    - [S1 극장좌석](https://www.acmicpc.net/problem/2302), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2302.java)
