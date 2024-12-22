@@ -8,6 +8,7 @@
    - [G4 카드 정렬하기](https://www.acmicpc.net/problem/1715), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1715.java)
 ### DP
 - 일반 DP
+   - [S5 돌게임](https://www.acmicpc.net/problem/9655), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ9655.java)
    - [S4 1로 만들기](https://www.acmicpc.net/problem/1463), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1463.java)
    - [S3 1,2,3 더하기](https://www.acmicpc.net/problem/9095), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ9095.java)
    - [S3 파도반 수열](https://www.acmicpc.net/problem/9461), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ9461.java)
