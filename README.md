@@ -16,6 +16,7 @@
    - [S2 제곱수의 합](https://www.acmicpc.net/problem/1699), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1699.java)
    - [S2 1,2,3 더하기3](https://www.acmicpc.net/problem/15988), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ15988.java)
    - [S1 1로 만들기2](https://www.acmicpc.net/problem/12852), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ12852.java)
+   - [S1 구간합구하기5](https://www.acmicpc.net/problem/11660), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ11660.java)
    - [S1 극장좌석](https://www.acmicpc.net/problem/2302), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2302.java)
    - [G5 자두나무](https://www.acmicpc.net/problem/2240), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2240.java)
    - [G5 Coins](https://www.acmicpc.net/problem/3067), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ3067.java)
@@ -26,6 +27,7 @@
   - [G4 팰린드롬?](https://www.acmicpc.net/problem/10942), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ10942.java)
   - [G4 타일 채우기](https://www.acmicpc.net/problem/2133), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2133.java)
   - [G3 내리막길](https://www.acmicpc.net/problem/1520), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ1520.java)
+  - [G3 색상환](https://www.acmicpc.net/problem/2482), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ2482.java)
 ### 정렬
 - Merge Sort
    - [S5 배열 합치기](https://www.acmicpc.net/problem/11728), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%A0%95%EB%A0%AC/BOJ11728.java)
