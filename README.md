@@ -10,6 +10,7 @@
    - [S4 보물](https://www.acmicpc.net/problem/1026), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1026.java)
    - [S1 회의실 배정](https://www.acmicpc.net/problem/1931), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1931.java)
    - [G4 카드 정렬하기](https://www.acmicpc.net/problem/1715), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1715.java)
+   - [G4 수묶기](https://www.acmicpc.net/problem/1744), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1744.java)
 - 그리디 스케쥴링
    - [G3 공주님의 정원](https://www.acmicpc.net/problem/2457), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ2457.java)
 ### DP
