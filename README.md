@@ -18,6 +18,7 @@
    - [G4 수묶기](https://www.acmicpc.net/problem/1744), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1744.java)
    - [G3 공주님의 정원](https://www.acmicpc.net/problem/2457), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ2457.java)
    - [G1 멀티텝 스케줄링](https://www.acmicpc.net/problem/1700), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1700.java)
+   - [G1 택배](https://www.acmicpc.net/problem/8980), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ8980.java)
 ### DP
 - 일반 DP
    - [S5 돌게임](https://www.acmicpc.net/problem/9655), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ9655.java)
