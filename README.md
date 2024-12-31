@@ -13,11 +13,11 @@
    - [S1 카드합체놀이](https://www.acmicpc.net/problem/15903), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ15903.java)
    - [G4 선 긋기](https://www.acmicpc.net/problem/2170), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ2170.java)
 - 그리디 스케쥴링
+   - [G5 강의실 배정](https://www.acmicpc.net/problem/11000), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ11000.java)
    - [G4 카드 정렬하기](https://www.acmicpc.net/problem/1715), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1715.java)
    - [G4 수묶기](https://www.acmicpc.net/problem/1744), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1744.java)
-- 그리디 스케쥴링
-   - [G5 강의실 배정](https://www.acmicpc.net/problem/11000), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ11000.java)
    - [G3 공주님의 정원](https://www.acmicpc.net/problem/2457), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ2457.java)
+   - [G1 멀티텝 스케줄링](https://www.acmicpc.net/problem/1700), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ1700.java)
 ### DP
 - 일반 DP
    - [S5 돌게임](https://www.acmicpc.net/problem/9655), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/DP/BOJ9655.java)
