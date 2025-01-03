@@ -6,6 +6,8 @@
 - 기본 이분탐색
    - [S4 수 찾기](https://www.acmicpc.net/problem/1920), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ1920.java)
    - [S4 숫자 카드2](https://www.acmicpc.net/problem/10816), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ10816.java)
+   - [S2 렌선 자르기](https://www.acmicpc.net/problem/1654), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ1654.java)
+   - [G4 세수의합](https://www.acmicpc.net/problem/2295), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ2295.java)
 ### 그리디
 - 일반 그리디
    - [S5 동전0](https://www.acmicpc.net/problem/11047), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EA%B7%B8%EB%A6%AC%EB%94%94/BOJ11047.java)
