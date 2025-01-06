@@ -6,7 +6,9 @@
 - 기본 이분탐색
    - [S4 수 찾기](https://www.acmicpc.net/problem/1920), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ1920.java)
    - [S4 숫자 카드2](https://www.acmicpc.net/problem/10816), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ10816.java)
+   - [S4 차집합](https://www.acmicpc.net/problem/1822), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ1822.java)
    - [S2 렌선 자르기](https://www.acmicpc.net/problem/1654), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ1654.java)
+   - [S2 과자나눠주기](https://www.acmicpc.net/problem/16401), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ16401.java)
    - [G4 세수의합](https://www.acmicpc.net/problem/2295), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ2295.java)
 ### 그리디
 - 일반 그리디
