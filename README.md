@@ -9,6 +9,8 @@
    - [S4 차집합](https://www.acmicpc.net/problem/1822), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ1822.java)
    - [S2 렌선 자르기](https://www.acmicpc.net/problem/1654), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ1654.java)
    - [S2 과자나눠주기](https://www.acmicpc.net/problem/16401), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ16401.java)
+   - [G5 용액](https://www.acmicpc.net/problem/2467), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ2467.java)
+   - [G4 합이0](https://www.acmicpc.net/problem/3151), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ3151.java)
    - [G4 세수의합](https://www.acmicpc.net/problem/2295), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ2295.java)
 ### 그리디
 - 일반 그리디
