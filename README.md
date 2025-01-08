@@ -1,4 +1,12 @@
 ## 문제 유형
+### 투 포인터 
+- 투포인터
+   - [S4 수들의 합 2](https://www.acmicpc.net/problem/2003),  [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/BOJ2003.java)
+   - [G4 부분합](https://www.acmicpc.net/problem/1806),  [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/BOJ1806.java)
+   - [G5 수 고르기](https://www.acmicpc.net/problem/2230),  [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/BOJ2230.java)
+   - [G3 소수의 연속합](https://www.acmicpc.net/problem/1644),  [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/BOJ1644.java)
+   - [G4 List of Unique Numbers](https://www.acmicpc.net/problem/13144),  [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/BOJ13144.java)
+
 ### 수학
 - 이항계수
    - [S2 이항계수2](https://www.acmicpc.net/problem/11051), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%88%98%ED%95%99/BOJ11051.java)
