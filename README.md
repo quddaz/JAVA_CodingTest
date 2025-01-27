@@ -1,4 +1,4 @@
-## 문제 유형
+## 문제 유형,
 ### 투 포인터 
 - 투포인터
    - [S4 수들의 합 2](https://www.acmicpc.net/problem/2003),  [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/BOJ2003.java)
