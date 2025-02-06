@@ -1,4 +1,4 @@
-## 문제 유형,
+## 문제 유형
 ### 투 포인터 
 - 투포인터
    - [S4 수들의 합 2](https://www.acmicpc.net/problem/2003),  [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%ED%88%AC%ED%8F%AC%EC%9D%B8%ED%84%B0/BOJ2003.java)
@@ -102,6 +102,7 @@
 ### 자료구조
 - 스택 스탠다드
    - [G4 문자열 폭발](https://www.acmicpc.net/problem/9935), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ9935.java)
+   - [G4 오큰수](https://www.acmicpc.net/problem/17298), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ17298.java)
 - 스택의 괄호 쌍
    - [S4 균형잡힌 세상](https://www.acmicpc.net/problem/4949), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ4949.java)
    - [S2 쇠파이프](https://www.acmicpc.net/problem/10799), [풀이코드](https://github.com/quddaz/JAVA_CodingTest/blob/main/BOJ/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/BOJ10799.java)
