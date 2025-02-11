@@ -47,54 +47,40 @@ System.out.println(ch); // 'e'
 - 유효하지 않은 인덱스를 전달하면 `StringIndexOutOfBoundsException` 발생
 
 ---
-
-## `String.substring(int beginIndex, int endIndex)`
-`substring()` 메서드는 문자열의 일부를 추출하여 새로운 문자열을 반환합니다.
-
-### 사용법
-```java
-String str = "Hello World";
-String subStr = str.substring(0, 5);
-System.out.println(subStr); // "Hello"
-```
-
-### 특징
-- `beginIndex`부터 `endIndex - 1`까지의 문자열을 반환
-- `endIndex`를 생략하면 해당 인덱스부터 문자열 끝까지 반환됨
-- 유효하지 않은 인덱스를 사용하면 `StringIndexOutOfBoundsException` 발생
-
----
-
-## `String.replace(char oldChar, char newChar)`
-`replace()` 메서드는 문자열 내의 특정 문자를 다른 문자로 대체한 새로운 문자열을 반환합니다.
+## `String.split(String regex)`
+`split()` 메서드는 지정한 정규 표현식을 기준으로 문자열을 나누어 배열로 반환합니다.
 
 ### 사용법
 ```java
-String str = "hello world";
-String replacedStr = str.replace('o', 'a');
-System.out.println(replacedStr); // "hella warld"
+String str = "hello world java";
+String[] words = str.split(" ");
+for (String word : words) {
+    System.out.println(word);
+}
+```
+
+### 출력
+```
+hello
+world
+java
 ```
 
 ### 특징
-- 기존 문자열을 변경하지 않고 새로운 문자열을 반환
-- 정규 표현식을 사용할 경우 `replaceAll(String regex, String replacement)` 사용 가능
+- 여러 개의 공백을 기준으로 나눌 경우 `split(" +")`을 사용하면 연속된 공백도 하나로 처리 가능
+- 빈 문자열을 기준으로 나누려면 `split("")` 사용 가능
+- 제한된 개수만큼 나누려면 `split(String regex, int limit)` 사용 가능
 
----
-
-## `String.trim()`
-`trim()` 메서드는 문자열의 앞뒤 공백을 제거한 새로운 문자열을 반환합니다.
-
-### 사용법
+### 다양한 예제
 ```java
-String str = "  hello world  ";
-String trimmedStr = str.trim();
-System.out.println(trimmedStr); // "hello world"
+String csv = "apple,banana,cherry";
+String[] fruits = csv.split(",");
+System.out.println(Arrays.toString(fruits)); // ["apple", "banana", "cherry"]
+
+String text = "one..two...three";
+String[] parts = text.split("\\.+"); // 점이 하나 이상 연속된 부분을 기준으로 분리
+System.out.println(Arrays.toString(parts)); // ["one", "two", "three"]
 ```
-
-### 특징
-- 문자열 내부의 공백은 제거되지 않음
-- 앞뒤 공백만 제거됨
-
 ---
 
 ## `StringBuilder.deleteCharAt(int index)`
@@ -122,10 +108,16 @@ System.out.println(sb); // "hllo"
 StringBuilder sb = new StringBuilder("hello world");
 sb.setLength(5);
 System.out.println(sb); // "hello"
+
 ```
 
 ### 특징
 - 지정한 길이보다 긴 경우 문자열이 잘림
 - 짧은 경우 빈 문자(`\u0000`)로 채워짐
 - `StringBuilder`의 크기를 조절할 때 유용
+
+---
+
+
+
 
