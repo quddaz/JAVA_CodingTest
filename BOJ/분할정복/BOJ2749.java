@@ -2,38 +2,50 @@ import java.io.*;
 import java.util.*;
 
 public class Main {
-    static final long MOD = 1_000_000;
+    static final int MOD = 1_000_000;
+    static long[] fib;
+    static long n;
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        long n = Long.parseLong(br.readLine());
-        System.out.println(fib(n));
+        n = Long.parseLong(br.readLine());
+
+        if (n == 0) {
+            System.out.println(0);
+            return;
+        }
+
+        int pisano = setPisano();
+        n %= pisano;
+        fib = new long[pisano + 1];
+        System.out.println(fibonacci(n));
     }
 
-    static long fib(long n) {
-        if (n == 0) return 0;
+    public static int setPisano() {
+        int prev = 0;
+        int curr = 1;
+        int pisano = 0;
+        long limit = 3000000; //피사노 주기의 최대 값을 대략으로 설정
 
-        long[][] result = power(new long[][]{{1, 1}, {1, 0}}, n - 1);
-        return result[0][0]; // F(n)
+        for (int i = 0; i < limit; i++) {
+            int temp = (prev + curr) % MOD;
+            prev = curr;
+            curr = temp;
+            pisano++;
+            if (prev == 0 && curr == 1) {
+                return pisano;
+            }
+        }
+        return pisano;
     }
 
-    static long[][] power(long[][] mat, long n) {
-        if (n == 1) return mat;
-
-        long[][] half = power(mat, n / 2);
-        long[][] full = multiply(half, half);
-
-        if (n % 2 == 1)
-            return multiply(full, new long[][]{{1, 1}, {1, 0}});
-        return full;
-    }
-
-    static long[][] multiply(long[][] a, long[][] b) {
-        long[][] res = new long[2][2];
-        res[0][0] = (a[0][0] * b[0][0] + a[0][1] * b[1][0]) % MOD;
-        res[0][1] = (a[0][0] * b[0][1] + a[0][1] * b[1][1]) % MOD;
-        res[1][0] = (a[1][0] * b[0][0] + a[1][1] * b[1][0]) % MOD;
-        res[1][1] = (a[1][0] * b[0][1] + a[1][1] * b[1][1]) % MOD;
-        return res;
+    public static long fibonacci(long n) {
+        fib[0] = 0;
+        fib[1] = 1;
+        for (int i = 2; i <= n; i++) {
+            fib[i] = (fib[i - 1] + fib[i - 2]) % MOD;
+        }
+        return fib[(int) n];
     }
 }
+
