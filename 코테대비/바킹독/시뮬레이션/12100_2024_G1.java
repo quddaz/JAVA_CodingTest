@@ -1,171 +1,149 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.*;
+import java.util.*;
 
 public class Main {
     static int n;
+    static int map[][];
     static int result = 0;
-
+    static int d[] = {0,1,2,3};
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(br.readLine());
-        int map[][] = new int[n][n];
-
-        for (int i = 0; i < n; i++) {
+        map = new int[n][n];
+        for(int i = 0; i < n; i++){
             StringTokenizer st = new StringTokenizer(br.readLine());
-            for (int j = 0; j < n; j++) {
+            for(int j = 0; j < n; j++){
                 map[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-
-        solve(0, map);
+        
+        dfs(0, map);
         System.out.println(result);
     }
 
-    public static void solve(int depth, int map[][]) {
-        if (depth == 5) {
-            int count = 0;
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n; j++) {
-                    count = Math.max(count, map[i][j]);
-                }
-            }
-            result = Math.max(result, count);
+    public static void dfs(int depth, int m[][]){
+        if(depth == 5){
+            getResult(m);
             return;
         }
 
-        // 네 방향에 대해 탐색
-        for (int i = 0; i < 4; i++) {
-            int[][] temp = setMap(i, map);
-            solve(depth + 1, temp);
+        for(int dir : d){
+            int temp[][] = cloneMap(m);
+            temp = setMap(dir, temp); 
+            dfs(depth+1, temp);
         }
+
     }
 
-    // 방향에 따라 맵을 갱신하는 함수
-    public static int[][] setMap(int direction, int[][] map) {
-        int[][] newMap = new int[n][n];
+    public static int[][] setMap(int flag, int[][] m) {
+        int[][] temp = cloneMap(m);
 
-        switch (direction) {
-            case 0: // 위로 이동
-                for (int j = 0; j < n; j++) {
-                    ArrayList<Integer> temp = new ArrayList<>();
-                    // 숫자 슬라이드
-                    for (int i = 0; i < n; i++) {
-                        if (map[i][j] != 0) {
-                            temp.add(map[i][j]);
-                        }
-                    }
-
-                    // 합치기
-                    for (int i = 0; i < temp.size() - 1; i++) {
-                        if (temp.get(i).equals(temp.get(i + 1))) {
-                            temp.set(i, temp.get(i) * 2);
-                            temp.remove(i + 1);
-                        }
-                    }
-
-                    // 나머지 0으로 채우기
-                    while (temp.size() < n) {
-                        temp.add(0);
-                    }
-
-                    // 새로운 맵에 값 복사
-                    for (int i = 0; i < n; i++) {
-                        newMap[i][j] = temp.get(i);
-                    }
-                }
-                break;
-            case 1: // 아래로 이동
-                for (int j = 0; j < n; j++) {
-                    ArrayList<Integer> temp = new ArrayList<>();
-                    // 숫자 슬라이드
-                    for (int i = n - 1; i >= 0; i--) {
-                        if (map[i][j] != 0) {
-                            temp.add(map[i][j]);
-                        }
-                    }
-
-                    // 합치기
-                    for (int i = 0; i < temp.size() - 1; i++) {
-                        if (temp.get(i).equals(temp.get(i + 1))) {
-                            temp.set(i, temp.get(i) * 2);
-                            temp.remove(i + 1);
-                        }
-                    }
-
-                    // 나머지 0으로 채우기
-                    while (temp.size() < n) {
-                        temp.add(0);
-                    }
-
-                    // 새로운 맵에 값 복사
-                    for (int i = 0; i < n; i++) {
-                        newMap[i][j] = temp.get(i);
-                    }
-                }
-                break;
-            case 2: // 왼쪽으로 이동
+        switch (flag) {
+            case 0: // ← 왼쪽
                 for (int i = 0; i < n; i++) {
-                    ArrayList<Integer> temp = new ArrayList<>();
-                    // 숫자 슬라이드
+                    List<Integer> li = new ArrayList<>();
                     for (int j = 0; j < n; j++) {
-                        if (map[i][j] != 0) {
-                            temp.add(map[i][j]);
+                        if (temp[i][j] != 0)
+                            li.add(temp[i][j]);
+                    }
+
+                    for (int j = 0; j < li.size() - 1; j++) {
+                        if (li.get(j).equals(li.get(j + 1))) {
+                            li.set(j, li.get(j) * 2);
+                            li.remove(j + 1);
                         }
                     }
 
-                    // 합치기
-                    for (int j = 0; j < temp.size() - 1; j++) {
-                        if (temp.get(j).equals(temp.get(j + 1))) {
-                            temp.set(j, temp.get(j) * 2);
-                            temp.remove(j + 1);
-                        }
-                    }
+                    while (li.size() < n) li.add(0);
 
-                    // 나머지 0으로 채우기
-                    while (temp.size() < n) {
-                        temp.add(0);
-                    }
-
-                    // 새로운 맵에 값 복사
-                    for (int j = 0; j < n; j++) {
-                        newMap[i][j] = temp.get(j);
-                    }
+                    for (int j = 0; j < n; j++)
+                        temp[i][j] = li.get(j);
                 }
                 break;
-            case 3: // 오른쪽으로 이동
+
+            case 1: // → 오른쪽
                 for (int i = 0; i < n; i++) {
-                    ArrayList<Integer> temp = new ArrayList<>();
-                    // 숫자 슬라이드
+                    List<Integer> li = new ArrayList<>();
                     for (int j = n - 1; j >= 0; j--) {
-                        if (map[i][j] != 0) {
-                            temp.add(map[i][j]);
+                        if (temp[i][j] != 0)
+                            li.add(temp[i][j]);
+                    }
+
+                    for (int j = 0; j < li.size() - 1; j++) {
+                        if (li.get(j).equals(li.get(j + 1))) {
+                            li.set(j, li.get(j) * 2);
+                            li.remove(j + 1);
                         }
                     }
 
-                    // 합치기
-                    for (int j = 0; j < temp.size() - 1; j++) {
-                        if (temp.get(j).equals(temp.get(j + 1))) {
-                            temp.set(j, temp.get(j) * 2);
-                            temp.remove(j + 1);
+                    while (li.size() < n) li.add(0);
+
+                    for (int j = 0; j < n; j++)
+                        temp[i][n - 1 - j] = li.get(j); 
+                }
+                break;
+
+            case 2: // ↑ 위쪽
+                for (int j = 0; j < n; j++) {
+                    List<Integer> li = new ArrayList<>();
+                    for (int i = 0; i < n; i++) {
+                        if (temp[i][j] != 0)
+                            li.add(temp[i][j]);
+                    }
+
+                    for (int i = 0; i < li.size() - 1; i++) {
+                        if (li.get(i).equals(li.get(i + 1))) {
+                            li.set(i, li.get(i) * 2);
+                            li.remove(i + 1);
                         }
                     }
 
-                    // 나머지 0으로 채우기
-                    while (temp.size() < n) {
-                        temp.add(0);
+                    while (li.size() < n) li.add(0);
+
+                    for (int i = 0; i < n; i++)
+                        temp[i][j] = li.get(i);
+                }
+                break;
+
+            case 3: // ↓ 아래쪽
+                for (int j = 0; j < n; j++) {
+                    List<Integer> li = new ArrayList<>();
+                    for (int i = n - 1; i >= 0; i--) {
+                        if (temp[i][j] != 0)
+                            li.add(temp[i][j]);
                     }
 
-                    // 새로운 맵에 값 복사
-                    for (int j = 0; j < n; j++) {
-                        newMap[i][j] = temp.get(j);
+                    for (int i = 0; i < li.size() - 1; i++) {
+                        if (li.get(i).equals(li.get(i + 1))) {
+                            li.set(i, li.get(i) * 2);
+                            li.remove(i + 1);
+                        }
                     }
+
+                    while (li.size() < n) li.add(0);
+
+                    for (int i = 0; i < n; i++)
+                        temp[n - 1 - i][j] = li.get(i); 
                 }
                 break;
         }
 
-        return newMap;
+        return temp;
+    }
+
+    public static int[][] cloneMap(int m[][]){
+        int temp[][] = new int[n][n];
+
+        for(int i = 0; i < n; i++){
+            temp[i] = m[i].clone();
+        }
+        return temp;
+    }
+    public static void getResult(int m[][]){
+        for(int i = 0; i < n; i++){
+            for(int j = 0; j < n; j++){
+                result = Math.max(m[i][j], result);
+            }
+        }
     }
 }
