@@ -15,28 +15,24 @@ public class Main {
 
             if (num == b) return commands;
 
-            // D
             int d = (num * 2) % 10000;
             if (!visited[d]) {
                 visited[d] = true;
                 queue.add(new Pair(d, commands + "D"));
             }
 
-            // S
             int s = (num == 0) ? 9999 : num - 1;
             if (!visited[s]) {
                 visited[s] = true;
                 queue.add(new Pair(s, commands + "S"));
             }
 
-            // L
             int l = (num % 1000) * 10 + (num / 1000);
             if (!visited[l]) {
                 visited[l] = true;
                 queue.add(new Pair(l, commands + "L"));
             }
 
-            // R
             int r = (num % 10) * 1000 + (num / 10);
             if (!visited[r]) {
                 visited[r] = true;
